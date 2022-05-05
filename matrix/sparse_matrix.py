@@ -38,6 +38,30 @@ class SparseVector:
         return res_vector
 
 
+    def __sub__(self, other):
+        """
+        if other is a number:every value sub this num
+        if other is a vector:add vector
+        :param other:
+        :return:
+        """
+        if isinstance(other,SparseVector):
+            if self.row_len!=other.row_len:
+                raise IndexError
+            res=self.value.copy()
+            for i in other.value:
+                if i in res.keys():
+                    res[i]-=other.value[i]
+                else:
+                    res[i]=-other.value[i]
+        else:
+            res = self.value.copy()
+            for i in other.value:
+                res[i] -= other
+        res_vector=SparseVector(res,self.row_len)
+        return res_vector
+
+
     def __mul__(self, other):
         """
         only for vector*number
