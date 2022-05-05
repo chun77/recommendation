@@ -113,7 +113,7 @@ class SparseMatrix:
                 if j in res_index[i]:   # value in res not 0
                     res_value[i][j]+=other.value[i][j]
                 else:
-                    res_index[i].append(value_j)
+                    res_index[i].append(j)
                     res_value[i][j]=other.value[i][j]
         for i in res_index:
             for j in res_index[i]:
@@ -135,7 +135,7 @@ class SparseMatrix:
                 if j in res_index[i]:   # value in res not 0
                     res_value[i][j]-=other.value[i][j]
                 else:
-                    res_index[i].append(value_j)
+                    res_index[i].append(j)
                     res_value[i][j]=-other.value[i][j]
         for i in res_index:
             for j in res_index[i]:
