@@ -13,6 +13,7 @@ class SparseVector:
         self.value=value
         self.row_len=row
 
+
     def __add__(self, other):
         """
         if other is a number:every value add this num
@@ -36,6 +37,7 @@ class SparseVector:
         res_vector=SparseVector(res,self.row_len)
         return res_vector
 
+
     def __mul__(self, other):
         """
         only for vector*number
@@ -53,6 +55,30 @@ class SparseVector:
         for i in self.value:
             out_matrix[i-1][0]=self.value[i]
         print(out_matrix)
+
+
+    def sum(self,is_abs=True):
+        """
+        calculate L1 normal form
+        :param is_abs:
+        :return:
+        """
+        res=0
+        if is_abs:
+            for i in self.value:
+                res+=abs(self.value[i])
+        else:
+            for i in self.value:
+                res+=self.value[i]
+        return res
+
+
+    def set(self,i,value):
+        self.value[i]=value
+
+
+    def get(self,i):
+        return self.value[i]
 
 
 class SparseMatrix:
@@ -75,6 +101,7 @@ class SparseMatrix:
         self.col_len=col
         self.index=index
         self.value=value
+
 
     def __add__(self, other):
         # if self.col_len!=other.col_len or self.row_len!=other.row_len:
@@ -182,6 +209,7 @@ class SparseMatrix:
                 for j in self.index[i]:
                     res += self.value[i][j]
         return sum
+
 
     def print(self):
         out_matrix=np.zeros([self.row_len,self.col_len])

@@ -11,12 +11,14 @@ if __name__ == '__main__':
     b_value={1:{1:2},2:{2:1}}
     c_value={1:2,2:1}
     mat3=mat.SparseVector(c_value,2)
-    # mat3.print()
-    mat1=mat.SparseMatrix(2,2,a_index,a_value)
-    mat2=mat.SparseMatrix(2,2,b_index,b_value)
-    mat1.print()
-    mat1.set(1,2,5)
-    mat1.print()
+    mat3.print()
+    mat3.set(1,10)
+    mat3.print()
+    # mat1=mat.SparseMatrix(2,2,a_index,a_value)
+    # mat2=mat.SparseMatrix(2,2,b_index,b_value)
+    # mat1.print()
+    # mat1.set(1,2,5)
+    # mat1.print()
     # mat2.print()
     # res=mat1*3
     # res.print()
