@@ -36,8 +36,11 @@ def read_lines():
     n = len(all_pages)
     global total_size
     total_size = max(all_pages)
-    print(number)
+    # print(number)
     print(n)
+    # print(sorted(number))
+    print(sorted(all_pages))
+
     f.close()
     return
 
@@ -70,21 +73,22 @@ def init_matrixb():
         yi = y % block_size
         if yi == 0:
             yi = block_size
-        with open('matrixBlocks/block' + str(i) + '_' + str(j) + '.pkl', 'rb') as fr:
+        with open('matrixBlocks/block' + str(j) + '_' + str(i) + '.pkl', 'rb') as fr:
             m = pickle.load(fr)
             m.set(yi, xi, 1 / out[x])
-        with open('matrixBlocks/block' + str(i) + '_' + str(j) + '.pkl', 'wb') as fw:
+            # m.print()
+        with open('matrixBlocks/block' + str(j) + '_' + str(i) + '.pkl', 'wb') as fw:
             pickle.dump(m, fw)
 
 
 def init_vb():
-    global number
+    global all_pages
     for i in range(1, math.ceil(total_size / block_size) + 1):
         value0 = {}
         value1 = {}
         for k in range(1, block_size + 1):
             cur = k + (i - 1) * block_size
-            if cur not in number:
+            if cur not in all_pages:
                 value0[k] = 0
                 value1[k] = 0
             else:
@@ -101,13 +105,13 @@ def init_vb():
         value1 = {}
         for k in range(1, block_size + 1):
             cur = k + (i - 1) * block_size
-            print(cur)
-            if cur not in number:
+            # print(cur)
+            if cur not in all_pages:
                 value1[k] = 0
             else:
                 value1[k] = 1 / n
         v0 = SparseVector(value1, block_size)
-        v0.print()
+        # v0.print()
         with open('vectorBlocks/newVector' + str(i) + '.pkl', 'wb') as fp:
             pickle.dump(v0, fp)
 

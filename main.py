@@ -5,7 +5,7 @@ from DataReadWrite.readWriteBlock import get_new_vector
 from pageranker1 import iterate, cal_diff, write_file ,sort_value
 from matrix.sparse_matrix import SparseMatrix,SparseVector
 
-e = 0.000001
+e = 0.0001
 """
 Accuracy
 """
