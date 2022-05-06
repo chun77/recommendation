@@ -46,9 +46,11 @@ def init_matrixb():
 
 def init_vb():
     for i in range(math.ceil(n / block_size)):
-        v0 = SparseVector(block_size)
-        for j in range(block_size):
-            v0.set(j, 1 / n)
+        value = {}
+        for k in range(1, block_size + 1):
+            value[k] = 1 / n
+        v0 = SparseVector(value, block_size)
+        v0.print()
         with open('oldVector' + str(i) + '.pkl', 'wb') as fp:
             pickle.dump(v0, fp)
 
