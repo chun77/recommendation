@@ -1,17 +1,19 @@
 import numpy as np
 block_size = 1000
+
+
 class SparseVector:
     """
     vector class ,row_len*1 matrix
     only save row and value
     """
-    def __init__(self,row):
+    def __init__(self, value, row):
         """
 
         # :param value:{1:3,2:1,5:1...}
         :param row:
         """
-        # self.value=value
+        self.value=value
         self.row_len=row
 
 

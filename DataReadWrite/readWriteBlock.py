@@ -8,14 +8,26 @@ def get_matrixb(i0, j0):
     return mb
 
 
-def get_vector(i):
+def get_old_vector(i):
     with open('DataReadWrite/vectorBlocks/oldVector' + str(i) + '.pkl', 'rb') as ff:
         vb = pickle.load(ff)
     return vb
 
 
-def set_vector(i, vb):
+def set_old_vector(i, vb):
     with open('DataReadWrite/vectorBlocks/oldVector' + str(i) + '.pkl', 'wb') as ff:
+        pickle.dump(ff, vb)
+    return
+
+
+def get_new_vector(i):
+    with open('DataReadWrite/vectorBlocks/newVector' + str(i) + '.pkl', 'rb') as ff:
+        vb = pickle.load(ff)
+    return vb
+
+
+def set_new_vector(i, vb):
+    with open('DataReadWrite/vectorBlocks/newVector' + str(i) + '.pkl', 'wb') as ff:
         pickle.dump(ff, vb)
     return
 
