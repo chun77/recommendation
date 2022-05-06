@@ -1,16 +1,17 @@
 import numpy as np
+block_size = 1000
 class SparseVector:
     """
     vector class ,row_len*1 matrix
     only save row and value
     """
-    def __init__(self,value,row):
+    def __init__(self,row):
         """
 
-        :param value:{1:3,2:1,5:1...}
+        # :param value:{1:3,2:1,5:1...}
         :param row:
         """
-        self.value=value
+        # self.value=value
         self.row_len=row
 
 
@@ -38,6 +39,7 @@ class SparseVector:
         return res_vector
 
 
+<<<<<<< Updated upstream
     def __sub__(self, other):
         """
         if other is a number:every value sub this num
@@ -62,6 +64,8 @@ class SparseVector:
         return res_vector
 
 
+=======
+>>>>>>> Stashed changes
     def __mul__(self, other):
         """
         only for vector*number
@@ -110,10 +114,10 @@ class SparseMatrix:
     Sparse matrix class
     """
     def __init__(self,
-                 row=1000,
-                 col=1000,
-                 index={i:list() for i in range(1,1001)},
-                 value={i:dict() for i in range(1,1001)}):
+                 row=block_size,
+                 col=block_size,
+                 index={i:list() for i in range(1,block_size+1)},
+                 value={i:dict() for i in range(1,block_size+1)}):
         """
 
         :param row:
