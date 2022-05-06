@@ -29,7 +29,8 @@ class SparseVector:
             for i in other.value:
                 if i in res.keys():
                     res[i]+=other.value[i]
-                else:
+            for i in other.value:
+                if i not in res.keys():
                     res[i]=other.value[i]
         else:
             res = self.value.copy()
@@ -39,7 +40,6 @@ class SparseVector:
         return res_vector
 
 
-<<<<<<< Updated upstream
     def __sub__(self, other):
         """
         if other is a number:every value sub this num
@@ -54,8 +54,9 @@ class SparseVector:
             for i in other.value:
                 if i in res.keys():
                     res[i]-=other.value[i]
-                else:
-                    res[i]=-other.value[i]
+            for i in other.value:
+                if i not in res.keys():
+                    res[i] = -other.value[i]
         else:
             res = self.value.copy()
             for i in other.value:
@@ -64,8 +65,6 @@ class SparseVector:
         return res_vector
 
 
-=======
->>>>>>> Stashed changes
     def __mul__(self, other):
         """
         only for vector*number
