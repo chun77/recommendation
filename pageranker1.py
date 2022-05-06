@@ -1,20 +1,19 @@
+import math
+
 import numpy as np
 
 from DataReadWrite.readWriteBlock import get_matrixb, get_new_vector, set_old_vector, \
     set_new_vector, get_old_vector, get_func_vector
+from DataReadWrite.initBlock import get_n, get_total
 from matrix import sparse_matrix as mat
 from DataReadWrite import readWriteBlock
 
-N = 9000
+N = get_total()
+n = get_n()
 block_size = 1000
-sum_row = int(N/block_size)
-sum_col = int(N/block_size)
+sum_row = math.ceil(N / block_size)
+sum_col = math.ceil(N / block_size)
 beta = 0.85
-e = 0.00001
-# R_old = mat.SparseVector(dict.fromkeys(np.arange(block_size), 1/9000), N)
-"""
-index of matrix and vector
-"""
 
 
 def leak_pagerank():
@@ -22,8 +21,9 @@ def leak_pagerank():
     calculate S
     """
     s = 0
-    for i in range(1, sum_row+1):
+    for i in range(1, sum_row + 1):
         s += get_new_vector(i).sum()
+    # print(s)
     if s < 1:
         return s
     else:
@@ -35,32 +35,34 @@ def fix_up_pagerank(s):
     re_insert the leaked pagerank
     r_new=M*r_old
     """
-    fix_up = (1-s)/N
-    for i in range(1, sum_row+1):
+    fix_up = (1 - s) / n
+    for i in range(1, sum_row + 1):
         r_new = get_new_vector(i)
         r_func = get_func_vector(i)
         r_new_fixed = r_new + r_func * fix_up
         set_new_vector(i, r_new_fixed)
-    # r_new_fixed = mat.SparseVector(r_new, r_new.row_len)
-    # r_new_fixed += r_fix_up
 
 
 def iterate():
     """
     set new r
     """
-    initial = dict.fromkeys(np.arange(block_size), 0)
-    for i in range(1, sum_row+1):
+
+    # initial = dict.fromkeys(np.arange(1, block_size + 1), 0)
+    initial = {i:0 for i in range(1,block_size+1)}
+    for i in range(1, sum_row + 1):
         r_new = mat.SparseVector(initial, block_size)
-        for j in range(1, sum_col+1):
+        for j in range(1, sum_col + 1):
             r_temp = get_new_vector(j)
+            # r_temp.print()
             m = get_matrixb(i, j)
+            # m.print()
+            # r_new.print()
+            # (m * r_temp).print()
             r_new = m * r_temp + r_new
         r_new = r_new * beta
         set_old_vector(i, get_new_vector(i))
         set_new_vector(i, r_new)
-        # r_temp = r_new - r_old
-        # d_value = r_temp.sum()
     if leak_pagerank() != -1:
         temp = leak_pagerank()
         fix_up_pagerank(temp)
@@ -71,33 +73,55 @@ def cal_diff():
     calculate the d_value
     """
     diff_sum = 0
-    for i in range(1, sum_row+1):
+    for i in range(1, sum_row + 1):
         r_new = get_new_vector(i)
-        # r_new.print()
         r_old = get_old_vector(i)
-        # r_old.print()
         r_temp = r_new - r_old
         diff_sum += r_temp.sum()
     return diff_sum
 
 
-if __name__ == '__main__':
-    if_converge = False
-    while not if_converge:
-        iterate()
-        D_value = cal_diff()
-        print(D_value)
-        if D_value < e:
-            if_converge = True
-        else:
-            if_converge = False
-    # r_temp = get_new_vector(1)
-    # r_temp.print()
+def write_file():
+    """
+    result.txt
+    """
+    f = open('result.txt', 'w')
+    for i in range(1, sum_row + 1):
+        r = get_new_vector(i)
+        for j in r.value:
+            if r.value[j] != 0:
+                temp = j + 1000 * (i - 1)
+                f.write(f'{temp} {r.value[j]}\n')
+    f.close()
 
 
+def sort_value():
+    f = open("result.txt", 'r', encoding='utf-8')
+    numbers = []
+    rank_values = []
+    while 1:
+        lines = f.readlines(1000)
+        if not lines:
+            break
+        for line in lines:
+            x, y = map(float, line.split())
+            numbers.append(x)
+            rank_values.append(y)
+    f.close()
+    rank_values, numbers = my_sort(rank_values, numbers)
+    f = open("result1.txt", 'w', encoding='utf-8')
+    for i, rv in enumerate(rank_values):
+        line = str(rv) + ' ' + str(numbers[i]) + '\n'
+        f.write(line)
+
+    return
 
 
-
-
-
+def my_sort(x, y):
+    xy = [(xi, yi) for xi, yi in zip(x, y)]
+    sorted_xy = sorted(xy)
+    sorted_x = [xi for xi, _ in sorted_xy]
+    sorted_y = [yi for _, yi in sorted_xy]
+    print(sorted_xy)
+    return sorted_x, sorted_y
 
