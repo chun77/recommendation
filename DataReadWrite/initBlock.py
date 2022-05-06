@@ -91,12 +91,20 @@ def init_vb():
         v1 = SparseVector(value1, block_size)
         with open('vectorBlocks/oldVector' + str(i) + '.pkl', 'wb') as fp:
             pickle.dump(v1, fp)
+    for i in range(1, math.ceil(n / block_size)+1):
+        value = {}
+        for k in range(1, block_size + 1):
+            value[k] = 1 / n
+        v0 = SparseVector(value, block_size)
+        # v0.print()
+        with open('vectorBlocks/newVector' + str(i) + '.pkl', 'wb') as fp:
+            pickle.dump(v0, fp)
 
 
 if __name__ == '__main__':
     os.system("python readWriteBlock.py {}".format(out))
-    read_lines()
+    # read_lines()
     # init_matrixb()
-    # init_vb()
-    print("number is %d" % n)
-    print("total_size is %d" % total_size)
+    init_vb()
+    # print("number is %d" % n)
+    # print("total_size is %d" % total_size)
