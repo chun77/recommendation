@@ -9,8 +9,8 @@ block_size = 1000
 n = 0
 # 向量长度
 total_size = 0
-number = []
-rank_values = []
+srcs = []
+dests = []
 all_pages = []
 
 
@@ -22,14 +22,14 @@ def read_lines():
             break
         for line in lines:
             x, y = map(int, line.split())
-            number.append(x)
-            rank_values.append(y)
+            srcs.append(x)
+            dests.append(y)
             if x not in out.keys():
                 out[x] = 1
             else:
                 out[x] += 1
     global all_pages
-    all_pages = list(set(number).union(rank_values))
+    all_pages = list(set(srcs).union(dests))
     global n
     n = len(all_pages)
     global total_size
@@ -65,8 +65,8 @@ def init_matrixb():
         for j in range(1, math.ceil(total_size / block_size) + 1):
             with open('matrixBlocks/block' + str(i) + '_' + str(j) + '.pkl', 'wb') as fp:
                 pickle.dump(m0, fp)
-    for index, x in enumerate(number):
-        y = rank_values[index]
+    for index, x in enumerate(srcs):
+        y = dests[index]
         i = math.ceil(x / block_size)
         j = math.ceil(y / block_size)
         xi = x % block_size
