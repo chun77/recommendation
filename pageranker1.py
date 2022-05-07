@@ -1,15 +1,12 @@
 import math
 
-import numpy as np
-
-from DataReadWrite.readWriteBlock import get_matrixb, get_new_vector, set_old_vector, \
+from readWriteBlock import get_matrixb, get_new_vector, set_old_vector, \
     set_new_vector, get_old_vector, get_func_vector
-from DataReadWrite.initBlock import get_n, get_total
 from matrix import sparse_matrix as mat
-from DataReadWrite import readWriteBlock
 
-N = get_total()
-n = get_n()
+f = open("info.txt", 'r', encoding='utf-8')
+line = f.readlines(1)[0]
+n, N = map(int, line.split())
 block_size = 1000
 sum_row = math.ceil(N / block_size)
 sum_col = math.ceil(N / block_size)
@@ -57,7 +54,7 @@ def iterate():
             r_new = m * r_temp + r_new
         # r_new = r_new * beta
         r_func = get_func_vector(i) * (1 / n)
-        r_new = r_new + r_func * (1-beta)
+        r_new = r_new + r_func * (1 - beta)
         set_old_vector(i, get_new_vector(i))
         set_new_vector(i, r_new)
     if leak_pagerank() != -1:
@@ -125,4 +122,3 @@ def my_sort(x, y):
     sorted_y = [yi for _, yi in sorted_xy]
     # print(sorted_xy)
     return sorted_x, sorted_y
-

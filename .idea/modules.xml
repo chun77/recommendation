@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pagerank.iml" filepath="$PROJECT_DIR$/.idea/pagerank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bigdata.iml" filepath="$PROJECT_DIR$/.idea/bigdata.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="820dcb20-6ba3-43c3-8fe4-6bf31d2e9379" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector3.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector5.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector6.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector7.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector8.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/newVector9.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector3.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector5.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector6.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector7.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector8.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorBlocks/oldVector9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pagerank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/initBlock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/initBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/initBlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block1_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block1_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block2_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block2_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block3_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block3_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block4_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block4_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block5_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block5_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block6_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block6_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block7_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block7_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block8_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block8_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/matrixBlocks/block9_9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/matrixBlocks/block9_9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/readWriteBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/readWriteBlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/funcVector9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/funcVector9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector1.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector10.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorBlocks/newVector10.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector2.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector3.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector4.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector5.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector6.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector7.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector8.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/newVector9.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector1.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector2.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector3.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector4.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector5.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector6.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector7.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector8.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataReadWrite/vectorBlocks/oldVector9.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageranker1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageranker1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28prOtbbmPrUikpbuAdJN8aOCPb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="initBlock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bigdata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zichun\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initBlock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bigdata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pageranker1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bigdata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageranker1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.initBlock" />
+        <item itemvalue="Python.pageranker1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="820dcb20-6ba3-43c3-8fe4-6bf31d2e9379" name="Changes" comment="" />
+      <created>1651924339257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651924339257</updated>
+    </task>
+    <servers />
+  </component>
+</project>
