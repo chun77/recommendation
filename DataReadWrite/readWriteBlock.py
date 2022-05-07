@@ -8,6 +8,8 @@ def get_matrixb(i0, j0):
     return mb
 
 
+
+
 def get_old_vector(i):
     with open('DataReadWrite/vectorBlocks/oldVector' + str(i) + '.pkl', 'rb') as ff:
         vb = pickle.load(ff)

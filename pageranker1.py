@@ -52,9 +52,12 @@ def iterate():
         r_new = mat.SparseVector(initial, block_size)
         for j in range(1, sum_col + 1):
             r_temp = get_new_vector(j)
+            r_temp = r_temp * beta
             m = get_matrixb(i, j)
             r_new = m * r_temp + r_new
-        r_new = r_new * beta
+        # r_new = r_new * beta
+        r_func = get_func_vector(i) * (1 / n)
+        r_new = r_new + r_func * (1-beta)
         set_old_vector(i, get_new_vector(i))
         set_new_vector(i, r_new)
     if leak_pagerank() != -1:
