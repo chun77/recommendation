@@ -23,7 +23,6 @@ def leak_pagerank():
     s = 0
     for i in range(1, sum_row + 1):
         s += get_new_vector(i).sum()
-    # print(s)
     if s < 1:
         return s
     else:
@@ -48,17 +47,12 @@ def iterate():
     set new r
     """
 
-    # initial = dict.fromkeys(np.arange(1, block_size + 1), 0)
-    initial = {i:0 for i in range(1,block_size+1)}
+    initial = {i: 0 for i in range(1, block_size + 1)}
     for i in range(1, sum_row + 1):
         r_new = mat.SparseVector(initial, block_size)
         for j in range(1, sum_col + 1):
             r_temp = get_new_vector(j)
-            # r_temp.print()
             m = get_matrixb(i, j)
-            # m.print()
-            # r_new.print()
-            # (m * r_temp).print()
             r_new = m * r_temp + r_new
         r_new = r_new * beta
         set_old_vector(i, get_new_vector(i))
@@ -105,13 +99,17 @@ def sort_value():
             break
         for line in lines:
             x, y = map(float, line.split())
+            x = int(x)
             numbers.append(x)
             rank_values.append(y)
     f.close()
     rank_values, numbers = my_sort(rank_values, numbers)
     f = open("result1.txt", 'w', encoding='utf-8')
+    numbers.reverse()
+    rank_values.reverse()
+    rank_values = rank_values[:100]
     for i, rv in enumerate(rank_values):
-        line = str(rv) + ' ' + str(numbers[i]) + '\n'
+        line = str(numbers[i]) + '           ' + str(rv) + '\n'
         f.write(line)
 
     return
@@ -122,6 +120,6 @@ def my_sort(x, y):
     sorted_xy = sorted(xy)
     sorted_x = [xi for xi, _ in sorted_xy]
     sorted_y = [yi for _, yi in sorted_xy]
-    print(sorted_xy)
+    # print(sorted_xy)
     return sorted_x, sorted_y
 
