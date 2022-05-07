@@ -1,5 +1,6 @@
 import pickle
 import math
+import time
 
 from matrix.sparse_matrix import SparseMatrix, SparseVector
 
@@ -35,9 +36,7 @@ def read_lines():
     global total_size
     total_size = max(all_pages)
     # print(number)
-    print(n)
     # print(sorted(number))
-    print(sorted(all_pages))
 
     f.close()
     f1 = open("info.txt", 'w', encoding='utf-8')
@@ -127,9 +126,14 @@ def get_total():
 
 
 if __name__ == '__main__':
+    print('=======begin init matrix========')
+    begin_time = time.time()
     read_lines()
-    # init_matrixb()
+    init_matrixb()
     init_vb()
-
+    end_time = time.time()
+    total_time = round(end_time-begin_time,4)
+    print(f'total_time:{total_time}s')
     print("number is %d" % n)
     print("total_size is %d" % total_size)
+    print('=======end init matrix=======')
