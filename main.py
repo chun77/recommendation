@@ -1,10 +1,12 @@
 from pageranker1 import iterate, cal_diff, write_file, sort_value
+from initBlock import init_block
 import time
 e = 0.00000001
 """
 Accuracy
 """
 if __name__ == '__main__':
+    init_block()
     if_converge = False
     iter_count = 1
     begin_time = time.time()

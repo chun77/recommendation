@@ -125,15 +125,31 @@ def get_total():
     return total_size
 
 
-if __name__ == '__main__':
+def init_block():
     print('=======begin init matrix========')
     begin_time = time.time()
     read_lines()
     init_matrixb()
     init_vb()
     end_time = time.time()
-    total_time = round(end_time-begin_time,4)
+    total_time = round(end_time - begin_time, 4)
     print(f'total_time:{total_time}s')
     print("number is %d" % n)
     print("total_size is %d" % total_size)
     print('=======end init matrix=======')
+
+    return
+
+
+# if __name__ == '__main__':
+#     print('=======begin init matrix========')
+#     begin_time = time.time()
+#     read_lines()
+#     init_matrixb()
+#     init_vb()
+#     end_time = time.time()
+#     total_time = round(end_time - begin_time, 4)
+#     print(f'total_time:{total_time}s')
+#     print("number is %d" % n)
+#     print("total_size is %d" % total_size)
+#     print('=======end init matrix=======')
